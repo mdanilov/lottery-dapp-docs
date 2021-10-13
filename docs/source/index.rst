@@ -6,6 +6,8 @@ And rules are pretty simple: players are buying tickets using the blockchain tok
 The token is defined by the blockchain, for example, the BNB on the Binance Smart Chain.
 The tokens from sales go to the prize pool and will be used to pay prizes in a specific drawing.
 
+See also :doc:`coin`.
+
 .. image:: slides/slides.001.png
   :width: 1024
   :align: center
@@ -18,7 +20,7 @@ the `Chainlink VRF <https://docs.chain.link/docs/chainlink-vrf/>`_ will be used 
 unclaimed, and only the winner can claim it. The unclaimed prizes are stored indefinitely in the contract
 memory and can be claimed at any time.
 
-.. image:: slides/slides.002.png
+.. image:: slides/slides.003.png
   :width: 1024
   :align: center
   :alt: Drawing
@@ -44,16 +46,6 @@ The organizer, or contract creator, doesn't have access to the prize pool. He ca
 If the partnership exists partner is also eligible for part of the profit (commission %), but it does not affect
 the players payout, because partner gets the part of the organizer profit. Having a partner means organizer getting less profit.
 
-Partnership
------------
-
-The partnership can be established by writing the partner address and his commission rate to the contract memory.
-One of the partnership could be for example, advertisement support.
-
-:math:`partnerProfit = soldTickets * ((100 - payout) / 100) * (commission / 100)`
-
-For example, if commission is 50% and payout is 90%, the partner will get the 5% of the total sales.
-
 Links
 -----
 
@@ -73,4 +65,6 @@ Contents
 
 .. toctree::
 
+   coin
    usage
+   partner
