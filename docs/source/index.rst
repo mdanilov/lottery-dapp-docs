@@ -49,7 +49,7 @@ the players payout, because partner gets the part of the organizer profit. Havin
 Links
 -----
 
-The Smart Contract is open and verified - `See Contract Source Code (Solidity) <https://bscscan.com/address/0xCe37cb56a115524ab31F31d321D8e19bB08B5D61#code#L1>`_.
+The Smart Contract is open and verified - `See Contract Source Code (Solidity) <https://bscscan.com/address/0xaAE784217656358A6E7689e4c801b99d38b9E4Ee#code#L1>`_.
 
 To try it out `Checkout the official website <https://www.lotteryonchains.com/>`_.
 
@@ -58,13 +58,13 @@ how to :ref:`connect`.
 
 .. note::
 
-   This project is under active development.
+  This project is under active development.
 
 Contents
 --------
 
 .. toctree::
 
-   coin
-   usage
-   partner
+  coin
+  usage
+  partner

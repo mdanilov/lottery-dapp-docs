@@ -1,5 +1,5 @@
-How-to play
-===========
+How To Play Lottery
+===================
 
 .. _connect:
 
@@ -23,8 +23,8 @@ At the end you will need to approve access to account information in your wallet
 
 |
 
-Buy tickets
------------
+Buying Lottery tickets
+----------------------
 
 When you connected your wallet, you can see your account information: already purchased tickets and
 rewards like on the screenshot below.
@@ -38,30 +38,49 @@ rewards like on the screenshot below.
 
 You can also buy tickets now. Make sure that you agree with ticket price displayed.
 
-1. To buy a ticket enter the amount of tickets you want to buy.
-You will see the estimated gas fee after your enter some value. Click the **Buy** button to start the transaction.
+#. To buy a ticket enter the amount of tickets you would like to buy into the field.
+   You will see the estimated gas fee and the ticket price after your enter some value.
+   The more tickets you buy, the greater the discount.
 
-   .. figure:: screenshots/buy-started.png
-      :width: 640
-      :align: center
+   The discount starts at 2 tickets, and scales all the way to 100 tickets where
+   you will save almost 50% on your purchase.
+
+   .. image:: screenshots/buy-started.png
+      :width: 45%
+      :alt: Buy started
+   .. image:: screenshots/buy-started-discount.png
+      :width: 45%
       :alt: Buy started
 
-2. At this step you need to confirm your transaction in a wallet. You may check the correctness of the gas
-fee and the spent amount.
+#. Click the **Buy** and confirm your action in your wallet.
 
    .. figure:: screenshots/buy-processing.png
-      :width: 640
+      :width: 50%
       :align: center
       :alt: Buy processing
 
-3. Once the transaction confirmed the amount of bought tickets will be reflected on your account balance.
+Viewing your tickets after buying
+---------------------------------
 
-   .. figure:: screenshots/buy-finished.png
+Once the transaction confirmed the amount of bought tickets will be reflected on your account balance.
+
+.. figure:: screenshots/buy-finished.png
+   :width: 640
+   :align: center
+   :alt: Buy finished
+
+Claiming reward
+---------------
+
+‌When the game has ended you can check your rewards to see if you won.
+
+1. Click **Connect Wallet** to see your account details.
+
+2. If you won you will see the rewards amount together with **Claim** button.
+
+   .. figure:: screenshots/claim.png
       :width: 640
       :align: center
       :alt: Buy finished
 
-Claim reward
-------------
-
-TODO
+3. Click **Claim** button to transfer rewards to your account address.
